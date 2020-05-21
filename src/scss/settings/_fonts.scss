@@ -1,0 +1,14 @@
+/*
+Do naszego projektu powinny być zaimportowane dwa fonty: "Open Sans" i
+"Merriweather" z Google Fonts.
+W folderze scss należy stworzyć folder settings a w nim pliki:
+_fonts.scss ze zmiennymi $font-base i $font-alt określające font-family dla
+ naszych dwóch fontów (Open Sans jest podstawowy)
+_colors.scss w którym zamieścimy wszystkie podstawowe kolory projektu.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$font-base: "Open Sans";
+$font-alt: "Merriweather";
