@@ -1,11 +1,13 @@
-# Kalkulator elektryka
+# Oddam w dobre ręce
 Additional project after the end of the Front-end Developer course at CodersLab.
 
 
 ## Technologies
-* React
-* SASS
+* JavaScript (ES6)
+* ReactJS (React Router)
+* CSS/SASS
 * Webpack
+JavaScript (ES6)
 
 ## Installation
 
