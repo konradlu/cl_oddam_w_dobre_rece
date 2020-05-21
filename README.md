@@ -1,4 +1,4 @@
-# Kalkulator elektryka
+# Oddam w dobre ręce
 Additional project after the end of the Front-end Developer course at CodersLab.
 
 
