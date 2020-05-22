@@ -9,6 +9,8 @@ Additional project after the end of the Front-end Developer course at CodersLab.
 * Webpack
 JavaScript (ES6)
 
+## Screenshot
+![Example screenshot](public/img/screen.jpg)
 ## Installation
 
 Use the npm to install all necessary packages:
