@@ -1,0 +1,23 @@
+.navLogin{
+  margin: 10px;
+  border: 1px solid rebeccapurple;
+  text-align: right;
+}
+
+.navLogin li{
+  margin: 20px 10px 20px 10px;
+  display: inline-block;
+}
+.navLogin a{
+  color: black;
+  text-decoration: none;
+  padding: 3px;
+}
+.navLogin a:visited{
+  color: black;
+}
+.navLogin a:hover{
+  color: greenyellow;
+  padding: 2px;
+  border: solid 1px black;
+}
