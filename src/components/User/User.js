@@ -9,24 +9,24 @@ export default function User(props) {
     return(
         <div className="user">
             <div className="userFormTitle">
-                {props.formType === "login" ? "Zaloguj się" : "Załóż konto"}
+                {props.formType === "login" ? <h1>Zaloguj się</h1> : <h1>Załóż konto</h1>}
             </div>
             <div className="userForm">
                 <form>
-                    email
-                    hasło
-                    {props.formType === "register" ? "Powtórz hasło" :""}
+                    <p>email</p>
+                    <p>hasło</p>
+                    {props.formType === "register" ? <p>Powtórz hasło</p> :""}
                 </form>
 
             </div>
             <div className="userBtns">
                 { props.formType === "login"
-                    ? <NavLink exact to="/register" className="navLoginLink">Załóż konto</NavLink>
-                    : <NavLink exact to="/login" className="navLoginLink">Zaloguj</NavLink>
+                    ? <div><NavLink exact to="/register" >Załóż konto</NavLink></div>
+                    : <div><NavLink exact to="/login" >Zaloguj</NavLink></div>
                  }
                 { props.formType === "login"
-                    ? <button>Zaloguj się</button>
-                    : <button>Załóż konto</button>
+                    ? <div><button>Zaloguj się</button></div>
+                    : <div><button>Załóż konto</button></div>
                 }
 
             </div>

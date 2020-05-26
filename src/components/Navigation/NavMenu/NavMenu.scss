@@ -1,6 +1,7 @@
+@import "../../../scss/settings/colors";
 .navMenu{
   margin: 10px;
-  border: 1px solid yellowgreen;
+  //border: 1px solid yellowgreen;
   text-align: right;
 }
 
@@ -9,6 +10,11 @@
   display: inline-block;
 }
 .navMenu a{
-  color: black;
+  color: map_get($colors, gray);
   text-decoration: none;
+  padding: 9px 20px;
+}
+.navMenu a:hover{
+  border: solid 1px map_get($colors, gray);
+  padding: 8px 19px;
 }
