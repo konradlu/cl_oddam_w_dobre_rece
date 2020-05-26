@@ -1,6 +1,49 @@
+@import "../../../scss/settings/colors";
 .homeHeader{
-  width: 99%;
+  //width: 99%;
+  //margin: 2px;
+  //border: 1px solid blue;
+  height: 1000px;
+  background-image: url("/img/Home-Hero-Image.jpg");
+  background-size: 50vw;
+  background-repeat: no-repeat;
+  background-position: left top;
+  display: flex;
+  justify-content: right;
 
-  margin: 2px;
-  border: 1px solid blue;
+
 }
+.homeHeaderContent{
+  width: 50vw;
+  height: 350px;
+  margin: 0 20px 0 2px;
+}
+.homeHeaderTitle{
+  margin: 100px 100px 200px 100px;
+  //width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.homeHeaderTitle h1,
+.homeHeaderTitle h2{
+  font-size: 38px;
+  padding: 10px;
+  color: map_get($colors, gray);
+}
+
+.homeHeaderBtns{
+  margin: 0 100px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.homeHeaderBtns a{
+  font-size: 36px;
+  padding: 13px 93px;
+  border: solid 1px map_get($colors, gray);
+  color: map_get($colors, gray);
+  text-decoration: none;
+  text-align: center;
+}
+

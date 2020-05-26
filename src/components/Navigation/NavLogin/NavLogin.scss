@@ -1,6 +1,7 @@
+@import "../../../scss/settings/colors";
 .navLogin{
-  margin: 10px;
-  border: 1px solid rebeccapurple;
+  margin-top: 50px;
+  //border: 1px solid rebeccapurple;
   text-align: right;
 }
 
@@ -9,15 +10,14 @@
   display: inline-block;
 }
 .navLogin a{
-  color: black;
+  color: map_get($colors, gray);
   text-decoration: none;
-  padding: 3px;
+  padding: 9px 20px;
 }
 .navLogin a:visited{
-  color: black;
+  color: map_get($colors, gray);
 }
 .navLogin a:hover{
-  color: greenyellow;
-  padding: 2px;
-  border: solid 1px black;
+  padding: 8px 19px;
+  border: solid 1px map_get($colors, gray);
 }
