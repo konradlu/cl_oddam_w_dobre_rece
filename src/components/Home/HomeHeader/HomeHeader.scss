@@ -1,8 +1,8 @@
 @import "../../../scss/settings/colors";
 .homeHeader{
   //width: 99%;
-  margin: 2px;
-  border: 1px solid blue;
+  //margin: 2px;
+  //border: 1px solid blue;
   height: 1000px;
   background-image: url("/img/Home-Hero-Image.jpg");
   background-size: 50vw;
@@ -16,10 +16,10 @@
 .homeHeaderContent{
   width: 50vw;
   height: 350px;
+  margin: 0 20px 0 2px;
 }
 .homeHeaderTitle{
-  margin-top: 100px;
-  margin-bottom: 120px;
+  margin: 100px 100px 200px 100px;
   //width: 100%;
   display: flex;
   align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .homeHeaderBtns{
-  //width: 100%;
+  margin: 0 100px 0 100px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -44,5 +44,6 @@
   border: solid 1px map_get($colors, gray);
   color: map_get($colors, gray);
   text-decoration: none;
+  text-align: center;
 }
 
