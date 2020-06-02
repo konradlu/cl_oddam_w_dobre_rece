@@ -33,12 +33,12 @@ export default function Home() {
 
                 <Route exact path="/login">
                     <Navigation />
-                    <User formType="login"/>
+                    <User />
                 </Route>
 
                 <Route exact path="/register">
                     <Navigation />
-                    <User formType="register"/>
+                    <User />
                 </Route>
 
             </Switch>
